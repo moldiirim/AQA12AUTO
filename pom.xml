@@ -5,10 +5,14 @@
   <groupId>org.example</groupId>
   <artifactId>AQA12AUTO</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
 
   <name>AQA12AUTO</name>
   <url>http://maven.apache.org</url>
+  <modules>
+    <module>Lesson_15</module>
+    <module>Lesson_15</module>
+  </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -18,7 +22,7 @@
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
-      <version>4.20.0</version>
+      <version>4.28.1</version>
     </dependency>
 
     <dependency>

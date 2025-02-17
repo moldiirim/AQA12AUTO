@@ -15,8 +15,8 @@ public class Task5 {
         driver.get("https://qa-course-01.andersenlab.com/login");
 
         // 2. Вводим логин и пароль
-        driver.findElement(By.id("email")).sendKeys("mba6104@gmail.com");
-        driver.findElement(By.id("password")).sendKeys("qwerty123");
+        driver.findElement(By.id("email")).sendKeys("mba6104@mail.com");
+        driver.findElement(By.id("password")).sendKeys("ваш_пароль");
         driver.findElement(By.id("login-button")).click();
 
         // 3. Нажимаем на аватарку
@@ -47,4 +47,4 @@ public class Task5 {
         driver.quit();
     }
 }
-}
+
